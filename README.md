@@ -1,7 +1,7 @@
 # Insurance-Claim-Prediction
-I will give a brief outline of my approach towards solving the given problem statement.
+A brief outline of the approach towards solving the given problem statement is as follows:
 
-#### Problem Statement : To predict Workers Compensation claims using a realistic data
+#### Problem Statement : To predict Workers Compensation claims 
 I figured out that it is a regression problem by looking at the data and the problem statement.With this in mind,I approched solving the problem in the following way.
 ### Approach :
 1. Pre-processing:
