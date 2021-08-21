@@ -1,14 +1,14 @@
 # Insurance-Claim-Prediction
 I will give a brief outline of my approach towards solving the given problem statement.
 
-**Problem Statement** : to predict Workers Compensation claims using the realistic data
+#### Problem Statement : To predict Workers Compensation claims using the realistic data
 I figured out that it is a regression problem by looking at the data and the problem statement.With this in mind,I approched solving the problem in the following way.
 ### Approach :
 1. Pre-processing:
-   a) Initially I imported the required linbraries, loaded the data to find out how it looks like and did some processing to name the headers properly. 
-   b) In order to understand basic description of the data, I found out the summary, shape, datatypes of the data.
-   c) found out the missing values and treated them in required manner.
-   d) transformed the data-time columns, changed the datatypes of few columns and binned few columns to make better analysis
+   -  Initially I imported the required linbraries, loaded the data to find out how it looks like and did some processing to name the headers properly. 
+   -  In order to understand basic description of the data, I found out the summary, shape, datatypes of the data.
+   -  Found out the missing values and treated them in required manner.
+   -  Transformed the data-time columns, changed the datatypes of few columns and binned few columns to make better analysis
 
 2. Exploratory Data Analysis:
    a) Started the EDA with basic statistical analysis by separating the numeric and categorical variables
