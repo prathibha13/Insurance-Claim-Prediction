@@ -24,3 +24,11 @@ I figured out that it is a regression problem by looking at the data and the pro
    
 5. Testing the model:
    After training the model on the train data, I tested it on the given test data by preprocessing the test data and predicting the target variable using the built model.
+
+### Result:
+The root mean squared error for the random forest model was approximately 1651.46
+
+### Conclusion:
+Exploratory data analysis using visualizations helped understand the data better and the regression models helped in predictions. however, the model can be further optimized in selecting only the most import features and other data transformation techniques for lower RMSE value.
+
+**Kaggle notebook link** : https://www.kaggle.com/prathibhaks/20bda15
