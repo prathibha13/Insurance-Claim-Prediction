@@ -1,1 +1,26 @@
 # Insurance-Claim-Prediction
+I will give a brief outline of my approach towards solving the given problem statement.
+
+**Problem Statement** : to predict Workers Compensation claims using the realistic data
+I figured out that it is a regression problem by looking at the data and the problem statement.With this in mind,I approched solving the problem in the following way.
+### Approach :
+1. Pre-processing:
+   a) Initially I imported the required linbraries, loaded the data to find out how it looks like and did some processing to name the headers properly. 
+   b) In order to understand basic description of the data, I found out the summary, shape, datatypes of the data.
+   c) found out the missing values and treated them in required manner.
+   d) transformed the data-time columns, changed the datatypes of few columns and binned few columns to make better analysis
+
+2. Exploratory Data Analysis:
+   a) Started the EDA with basic statistical analysis by separating the numeric and categorical variables
+   b) Created charts in 3 sections : Univariate analysis, bivariate analysis and Multivariate analysis and drew various insights of the data
+
+3. Outlier Analysis: 
+   In order take care of the outliers that might affect the working of the model, with the help of boxplot analysed which columns have outliers and treated them by writing a function.
+
+4. Model Building: 
+   a)In order to select the model I built 3 models namely Linear Regression, Support Vector Regressor and Random Forest Regressor. 
+   b)After building these models by writing a single function that can encode, scale, build the model, find rmse value, and the best parameters to get the best score, I concluded that Random Forest Regressor performs better with lower RMSE value.
+   c) After selecting the model as Random Forest Regressor, I decided to optimize the model. Using feature importance, I selected the featured, performed Label encoding and min max scaling, tried randomized search CV to get the best parameters( but did not use it as it did not give good results) and finally obtained the Rmse score
+   
+5. Testing the model:
+   After training the model on the train data, I tested it on the given test data by preprocessing the test data and predicting the target variable using the built model.
