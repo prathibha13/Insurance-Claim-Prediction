@@ -2,7 +2,7 @@
 A brief outline of the approach towards solving the given problem statement is as follows:
 
 #### Problem Statement : To predict Workers Compensation claims 
-I figured out that it is a regression problem by looking at the data and the problem statement.With this in mind,I approched solving the problem in the following way.
+I identified that the problem statement is a regression problem. With this in mind, I approched solving the problem in the following way.
 ### Approach :
 1. Pre-processing:
    -  Initially I imported the required linbraries, loaded the data to find out how it looks like and did some processing to name the headers properly. 
