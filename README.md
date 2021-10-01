@@ -5,7 +5,7 @@ A brief outline of the approach towards solving the given problem statement is a
 
 ### Dataset:
 Link to the dataset : https://www.kaggle.com/c/machine-learning-24-hrs-hackathon/data?select=train_SJC.csv
-The training set containing 36,000 insurance policies that can be used to train the model.
+The training set in train.csv containing 36,000 insurance policies that can be used to train the model.
 The test.csv contains data for testing the model.
 
 test.csv: The test set.
