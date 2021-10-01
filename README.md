@@ -2,7 +2,17 @@
 A brief outline of the approach towards solving the given problem statement is as follows:
 
 #### Problem Statement : To predict Workers Compensation claims 
-I identified that the problem statement is a regression problem. With this in mind, I approched solving the problem in the following way.
+
+### Dataset:
+Link to the dataset : https://www.kaggle.com/c/machine-learning-24-hrs-hackathon/data?select=train_SJC.csv
+The training set containing 36,000 insurance policies that can be used to train the model.
+The test.csv contains data for testing the model.
+
+test.csv: The test set.
+
+### Libraries used:
+pandas, numpy, matplotlib, seaborn, sklearn
+
 ### Approach :
 1. Pre-processing:
    -  Initially I imported the required linbraries, loaded the data to find out how it looks like and did some processing to name the headers properly. 
